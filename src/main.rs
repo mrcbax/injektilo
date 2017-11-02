@@ -47,7 +47,7 @@ fn main() {
                 Ok(o) => Some(o),
                 Err(_) => None,
             };
-            //Execute the command if its valid
+            //Execute the command if its valid.
             if let Some(cmd) = temp_cmd {
                 match execute(cmd) {
                     Ok(_) => break,
