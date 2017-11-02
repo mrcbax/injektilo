@@ -1,0 +1,13 @@
+[package]
+name = "injektilo"
+version = "0.1.0"
+authors = ["Chad Baxter <cbaxter@mail.umw.edu>"]
+
+[profile.release]
+lto = true
+
+[dependencies]
+curl = "*"
+serde = "*"
+serde_derive = "*"
+serde_json ="*"
