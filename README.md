@@ -40,3 +40,5 @@ strip the binary:
 > `strip target/release/injektilo`
 
 Always remember to compile with the release version and use gnu strip afterward to acheive a 539kb binary(compared to the unstripped 3MB).
+
+This repo is being mirrored across github and gitlab until github stabilizes under Microsoft ownership.
